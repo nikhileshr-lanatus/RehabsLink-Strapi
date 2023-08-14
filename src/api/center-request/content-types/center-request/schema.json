@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "center_requests",
+  "info": {
+    "singularName": "center-request",
+    "pluralName": "center-requests",
+    "displayName": "CenterRequest",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ContactNo": {
+      "required": true,
+      "type": "integer"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Website": {
+      "type": "string"
+    }
+  }
+}
